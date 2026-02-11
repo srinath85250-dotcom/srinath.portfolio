@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinath C | Portfolio</title>
+    
+    <!-- Link to your Structured CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- 1. Floating Background Shapes -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- 2. Navigation -->
+    <nav class="navbar">
+        <div class="logo">SRINATH<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Mobile Menu Button -->
+        <div class="menu-btn"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- 3. Main Hero Section -->
+    <main class="hero-container">
+        
+        <!-- Left Side: Text Content -->
+        <div class="hero-content reveal">
+            <span class="badge-tag">Available for Hire</span>
+            <h1>Mastering <span class="gradient-text">Code & Design</span></h1>
+            
+            <!-- Typing Animation Target -->
+            <h2 id="typing-text" style="color: var(--accent-blue); height: 40px;"></h2>
+            
+            <p class="hero-sub" style="margin: 20px 0 40px; color: var(--text-dim); max-width: 550px;">
+                Computer Science Engineer specializing in building scalable Fullstack applications 
+                with a focus on intuitive UI/UX. Currently maintaining a 7.9 CGPA at Adhiyamaan College.
+            </p>
+
+            <div class="hero-btns">
+                <a href="projects.html" class="btn primary">View My Work</a>
+                <a href="contact.html" class="btn secondary">Contact Me</a>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links" style="margin-top: 40px; display: flex; gap: 20px; font-size: 1.5rem;">
+                <a href="#" style="color: var(--text-dim); transition: 0.3s;"><i class="fab fa-github"></i></a>
+                <a href="#" style="color: var(--text-dim); transition: 0.3s;"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:srinath85250@gmail.com" style="color: var(--text-dim); transition: 0.3s;"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <!-- Right Side: Animated Image Area -->
+        <div class="hero-image-area reveal">
+            <div class="image-glowing-wrapper">
+                <!-- Replace with your actual path -->
+                <img src="./asset/Image.jpeg" alt="Srinath C" class="profile-img">
+            </div>
+        </div>
+
+    </main>
+
+    <!-- 4. Footer -->
+    <footer style="text-align: center; padding: 20px; color: var(--text-dim); font-size: 0.8rem; position: absolute; bottom: 0; width: 100%;">
+        Designed & Developed by Srinath © 2026
+    </footer>
+
+    <!-- 5. JavaScript for Animations -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
